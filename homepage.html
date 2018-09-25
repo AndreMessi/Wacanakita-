@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>wacana kita v2</title>
+        <meta name="description" content="Pushy is an off-canvas navigation menu for your website.">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/demo.css">
+        <link rel="stylesheet" href="css/pushy.css">
+        <link rel="stylesheet" href="css/pure/pure-min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+                <header class="site-header push">
+                        <button class="menu-btn">&#9776;</button>
+                    </header>
+                    <nav class="pushy pushy-left" data-focus="#first-link">
+                        <div class="pushy-content">
+                            <ul>
+                                <li class="pushy-link"><a href="#">Home</a></li>
+                                <li class="pushy-submenu">
+                                    <button id="first-link">Teknologi</button>
+                                    <ul>
+                                        <li class="pushy-link"><a href="#">Pemerograman</a></li>
+                                        <li class="pushy-link"><a href="#">Information Security</a></li>
+                                        <li class="pushy-link"><a href="#">Cloud Computing</a></li>
+                                        <li class="pushy-link"><a href="#">Internet Of Things</a></li>
+                                        <li class="pushy-link"><a href="#">System Informasi</a></li>
+                                        <li class="pushy-link"><a href="#">Cafture The Flag</a></li>
+                                    </ul>
+                                </li>
+                                <li class="pushy-submenu">
+                                    <button id="first-link">Olahraga</button>
+                                    <ul>
+                                        <li class="pushy-link"><a href="#">Sepak Bola</a></li>
+                                        <li class="pushy-link"><a href="#">Badminton</a></li>
+                                        <li class="pushy-link"><a href="#">Bassketball</a></li>
+                                        <li class="pushy-link"><a href="#">Moto Gp</a></li>
+                                        <li class="pushy-link"><a href="#">Formula 1</a></li>
+                                        <li class="pushy-link"><a href="#">Asian Games</a></li>
+                                    </ul>
+                                </li>
+                                <li class="pushy-submenu">
+                                    <button id="first-link">Traveller</button>
+                                    <ul>
+                                        <li class="pushy-link"><a href="#">Destination</a></li>
+                                        <li class="pushy-link"><a href="#">Travell News</a></li>
+                                        <li class="pushy-link"><a href="#">Bassketball</a></li>
+                                        <li class="pushy-link"><a href="#">Poto</a></li>
+                                        <li class="pushy-link"><a href="#">Video</a></li>
+                                        <li class="pushy-link"><a href="#">Social Budaya</a></li>
+                                    </ul>
+                                </li>
+                                <li class="pushy-submenu">
+                                        <button id="first-link">Otomotif</button>
+                                        <ul>
+                                            <li class="pushy-link"><a href="#">Mobil</a></li>
+                                            <li class="pushy-link"><a href="#">Motor</a></li>
+                                            <li class="pushy-link"><a href="#">Sepeda</a></li>
+                                            <li class="pushy-link"><a href="#">Modifikasi</a></li>
+                                            <li class="pushy-link"><a href="#">Komunitas</a></li>
+                                            <li class="pushy-link"><a href="#">Oto Gallery</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="pushy-submenu">
+                                        <button>Hots</button>
+                                        <ul>
+                                            <li class="pushy-link"><a href="#">Celleb</a></li>
+                                            <li class="pushy-link"><a href="#">Music</a></li>
+                                            <li class="pushy-link"><a href="#">Movie & Tv</a></li>
+                                        </ul>
+                                    </li>
+                            </ul>
+                        </div>
+                    </nav> <!-- Site Overlay -->
+                    <div class="site-overlay"></div>
+            
+                    <div class="pure-g">
+                            <div class="pure-u-12-24">
+                                <div class="container">
+                                            <input type="radio" id="i1" name="images" checked/>
+                                            <input type="radio" id="i2" name="images" />
+                                            <input type="radio" id="i3" name="images" />
+                                            <input type="radio" id="i4" name="images" />
+                                        
+                                            <div class="slide_img" id="one">
+                                                <img src="img/dog.jpg">
+                                                <label class="prev" for="i4"><span></span></label>
+                                                <label class="next" for="i2"><span></span></label>
+                                            </div>
+                                        
+                                            <div class="slide_img" id="two">
+                                                <img src="img/gambar.jpg">
+                                                 <label class="prev" for="i1"><span></span></label>
+                                                <label class="next" for="i3"><span></span></label>
+                                            </div>
+                                        
+                                            <div class="slide_img" id="three">
+                                                <img src="img/gambar1.jpg">
+                                                <label class="prev" for="i2"><span></span></label>
+                                                <label class="next" for="i4"><span></span></label>
+                                            </div>
+                                        
+                                            <div class="slide_img" id="four">
+                                                <img src="img/dog_small.jpg">
+                                                <label class="prev" for="i3"><span></span></label>
+                                                <label class="next" for="i1"><span></span></label>
+                                            </div>
+                                        
+                                            <div id="nav_slide">
+                                                <label for="i1" class="dots" id="dot1"></label>
+                                                <label for="i2" class="dots" id="dot2"></label>
+                                                <label for="i3" class="dots" id="dot3"></label>
+                                                <label for="i4" class="dots" id="dot4"></label>
+                                            </div>
+                                        
+                                    </div>
+                            </div>
+            
+                            <div class="pure-u-2-5">
+                                <h2 class="news__item">Terpopuler</h2>
+                                <div class="picture">
+                                    <img src="img/dog_small.jpg" >
+                                </div>
+                                <p><b>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                        Lorem Ipsum has been the industry'</b> ever since the 1500s,
+                                        when an unknown printer took a galley of type and scrambled it to make a type 
+                                        specimen book. It has survived not only five centuries, but also the leap into
+                                         electronic typesetting, remaining essentially unchanged. It was popularised in 
+                                         the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                                          and more recently with desktop publishing software like Aldus PageMaker including 
+                                          versions of Lorem Ipsum.</p>
+                            </div>
+                
+                    </div>
+            
+            <!-- content -->
+            <div class="pure-g">
+                    <div class="pure-u-12-24">
+                        <div class="img">
+                            <img src="img/gambar.jpg" alt="">
+                        </div>
+
+                        <div class="articel">
+                                <h2>Berita1</h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type 
+                                    specimen book. It has survived not only five centuries, but also the leap into
+                                     electronic typesetting, remaining essentially unchanged. It was popularised in 
+                                     the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                                      and more recently with desktop publishing software like Aldus PageMaker including 
+                                      versions of Lorem Ipsum.</p>
+                        </div>
+
+                        <div class="img">
+                                <img src="img/gambar.jpg" alt="">
+                            </div>
+    
+                            <div class="articel">
+                                    <h2>Berita2</h2>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                        when an unknown printer took a galley of type and scrambled it to make a type 
+                                        specimen book. It has survived not only five centuries, but also the leap into
+                                         electronic typesetting, remaining essentially unchanged. It was popularised in 
+                                         the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                                          and more recently with desktop publishing software like Aldus PageMaker including 
+                                          versions of Lorem Ipsum.</p>
+                            </div>
+
+                            <div class="img">
+                                    <img src="img/gambar.jpg" alt="">
+                                </div>
+        
+                                <div class="articel">
+                                        <h2>Berita3</h2>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                            when an unknown printer took a galley of type and scrambled it to make a type 
+                                            specimen book. It has survived not only five centuries, but also the leap into
+                                             electronic typesetting, remaining essentially unchanged. It was popularised in 
+                                             the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                                              and more recently with desktop publishing software like Aldus PageMaker including 
+                                              versions of Lorem Ipsum.</p>
+                                </div>
+
+                                <div class="img">
+                                        <img src="img/gambar.jpg" alt="">
+                                    </div>
+            
+                                    <div class="articel">
+                                            <h2>Berita4</h2>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                                when an unknown printer took a galley of type and scrambled it to make a type 
+                                                specimen book. It has survived not only five centuries, but also the leap into
+                                                 electronic typesetting, remaining essentially unchanged. It was popularised in 
+                                                 the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                                                  and more recently with desktop publishing software like Aldus PageMaker including 
+                                                  versions of Lorem Ipsum.</p>
+                                    </div>
+            
+                                    <div class="img">
+                                            <img src="img/gambar.jpg" alt="">
+                                        </div>
+                
+                                        <div class="articel">
+                                                <h2>Berita5</h2>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                                    when an unknown printer took a galley of type and scrambled it to make a type 
+                                                    specimen book. It has survived not only five centuries, but also the leap into
+                                                     electronic typesetting, remaining essentially unchanged. It was popularised in 
+                                                     the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                                                      and more recently with desktop publishing software like Aldus PageMaker including 
+                                                      versions of Lorem Ipsum.</p>
+                                        </div>
+            
+                                        <div class="img">
+                                                <img src="img/gambar.jpg" alt="">
+                                            </div>
+                    
+                                            <div class="articel">
+                                                    <h2>Berita6</h2>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                                        when an unknown printer took a galley of type and scrambled it to make a type 
+                                                        specimen book. It has survived not only five centuries, but also the leap into
+                                                         electronic typesetting, remaining essentially unchanged. It was popularised in 
+                                                         the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                                                          and more recently with desktop publishing software like Aldus PageMaker including 
+                                                          versions of Lorem Ipsum.</p>
+                                            </div>
+                    </div>
+    
+                    <div class="pure-u-2-5" style="margin-top: 170px">
+                            <div class="img">
+                                    <img src="img/gambar.jpg" style="width: 130px; height: 80px;">
+                                </div>
+        
+                                <div class="pavorit">
+                                        <h2>Pavorit</h2>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                            when an unknown printer took a galley.</p>
+                                </div>
+
+                                <div class="img">
+                                        <img src="img/gambar.jpg" style="width: 130px; height: 80px;">
+                                    </div>
+            
+                                    <div class="pavorit">
+                                            <h2>Pavorit</h2>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                                when an unknown printer took a galley.</p>
+                                    </div>
+                                    <div class="img">
+                                            <img src="img/gambar.jpg" style="width: 130px; height: 80px;">
+                                        </div>
+                
+                                        <div class="pavorit">
+                                                <h2>Pavorit</h2>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                                    when an unknown printer took a galley.</p>
+                                        </div>
+        
+                                        <div class="img">
+                                                <img src="img/gambar.jpg" style="width: 130px; height: 80px;">
+                                            </div>
+                    
+                                            <div class="pavorit">
+                                                    <h2>Pavorit</h2>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                                        when an unknown printer took a galley.</p>
+                                            </div>
+                                            <div class="img">
+                                                    <img src="img/gambar.jpg" style="width: 130px; height: 80px;">
+                                                </div>
+                        
+                                                <div class="pavorit">
+                                                        <h2>Pavorit</h2>
+                                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                                            when an unknown printer took a galley.</p>
+                                                </div>
+                
+                                                <div class="img">
+                                                        <img src="img/gambar.jpg" style="width: 130px; height: 80px;">
+                                                    </div>
+                            
+                                                    <div class="pavorit">
+                                                            <h2>Pavorit</h2>
+                                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                                                when an unknown printer took a galley.</p>
+                                                    </div>
+                                                    <div class="img">
+                                                            <img src="img/gambar.jpg" style="width: 130px; height: 80px;">
+                                                        </div>
+                                
+                                                        <div class="pavorit">
+                                                                <h2>Pavorit</h2>
+                                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                                                    when an unknown printer took a galley.</p>
+                                                        </div>
+                        
+                                                        <div class="img">
+                                                                <img src="img/gambar.jpg" style="width: 130px; height: 80px;">
+                                                            </div>
+                                    
+                                                            <div class="pavorit">
+                                                                    <h2>Pavorit</h2>
+                                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                                                        when an unknown printer took a galley.</p>
+                                                            </div>
+                                
+                    </div>
+            </div>
+                   
+        </div>
+
+        <!-- Pushy JS -->
+        <script src="js/pushy.min.js"></script>
+
+    </body>
+</html>
